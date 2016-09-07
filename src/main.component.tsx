@@ -35,6 +35,10 @@ export default class MainComponent extends React.Component<{ children: any }, {}
                         <Components.Buttons.Button label={'Cycle'} boder="cycle-button"/>
                         <Components.Buttons.Button label={'Cycle'} type="primary" lighten="lighten" animation="loading-pulse"/>
                     </div>
+                    <div>
+                        <Components.Buttons.CommandButton title={'Yes, share and connect'} subTitle={'Use this option for home or work'} icon="mif-share"/>
+                        <Components.Buttons.CommandButton title={'Yes, share and connect'} subTitle={'Use this option for home or work'} icon="mif-share" iconSide="right" type={'primary'}/>
+                    </div>
                 </div>
                 <div>{this.props.children}</div>
             </div>

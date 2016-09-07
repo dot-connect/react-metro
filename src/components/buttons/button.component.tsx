@@ -1,6 +1,5 @@
 import * as React from 'react';
 import * as ClassNames from 'classnames';
-import '../../less/buttons.less';
 
 export class Button extends React.Component<IButtonProps, IButtonState> {
     
@@ -23,7 +22,10 @@ export class Button extends React.Component<IButtonProps, IButtonState> {
     render() {      
 
         return (
-            <button className={this.state.classes}>{this.props.label}</button>
+            <button className={this.state.classes}>
+                {this.props.label}
+                {this.props.children}
+            </button>
         );
     }
 }

@@ -1,6 +1,9 @@
 // import 'bootswatch/paper/bootstrap.css';
 // import 'font-awesome/css/font-awesome.css';
 import './less/metro.less';
+import './less/metro-icons.less';
+import './less/metro-colors.less';
+
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
